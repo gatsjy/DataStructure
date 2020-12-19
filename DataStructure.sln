@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataStructure", "DataStruct
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Recursion", "Recursion\Recursion.vcxproj", "{E2BD9BA7-408D-4DE9-BC6F-282750CE1D85}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CircularQueue", "CircularQueue\CircularQueue.vcxproj", "{1CAABEBF-EB83-45C2-ABD8-CB067FBCCF3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ch07", "Ch07", "{C0541703-EF95-4072-8B59-2976F3EDC688}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,9 +35,20 @@ Global
 		{E2BD9BA7-408D-4DE9-BC6F-282750CE1D85}.Release|x64.Build.0 = Release|x64
 		{E2BD9BA7-408D-4DE9-BC6F-282750CE1D85}.Release|x86.ActiveCfg = Release|Win32
 		{E2BD9BA7-408D-4DE9-BC6F-282750CE1D85}.Release|x86.Build.0 = Release|Win32
+		{1CAABEBF-EB83-45C2-ABD8-CB067FBCCF3A}.Debug|x64.ActiveCfg = Debug|x64
+		{1CAABEBF-EB83-45C2-ABD8-CB067FBCCF3A}.Debug|x64.Build.0 = Debug|x64
+		{1CAABEBF-EB83-45C2-ABD8-CB067FBCCF3A}.Debug|x86.ActiveCfg = Debug|Win32
+		{1CAABEBF-EB83-45C2-ABD8-CB067FBCCF3A}.Debug|x86.Build.0 = Debug|Win32
+		{1CAABEBF-EB83-45C2-ABD8-CB067FBCCF3A}.Release|x64.ActiveCfg = Release|x64
+		{1CAABEBF-EB83-45C2-ABD8-CB067FBCCF3A}.Release|x64.Build.0 = Release|x64
+		{1CAABEBF-EB83-45C2-ABD8-CB067FBCCF3A}.Release|x86.ActiveCfg = Release|Win32
+		{1CAABEBF-EB83-45C2-ABD8-CB067FBCCF3A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1CAABEBF-EB83-45C2-ABD8-CB067FBCCF3A} = {C0541703-EF95-4072-8B59-2976F3EDC688}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C74DEE9A-7EC7-4270-A360-6804B9D4C039}
